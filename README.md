@@ -91,7 +91,7 @@ The experimental evaluation highlights the superior performance of the proposed 
 
 ### Model Performance Metrics
 <p align="center">
-  <img src="https://github.com/kishorravi/Colon-Classification-SqueezeNET-Classification/blob/main/images/table.jpeg" width="800">
+  <img src="https://github.com/kishorravi/Colon-Classification-SqueezeNET-Classification/blob/main/images/table.jpeg" width="500">
 </p>
 <p align="center">
   <b>Fig. 2:</b>  Performance Comparison of Dilated Residual SqueezeNet Architectures,DRCS-Net.V1, DRCS-Net.V2, and DRCS-Net.V3
