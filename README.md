@@ -5,6 +5,7 @@
 - [@kishor_avikumar](ece.kishor@gmail.com)
 - [@dr_bushara_ar](bushara.ar@gmail.com)
 - [@dr_rs_vinodkumar](svinodkumar@niuniv.com)
+- [@shahijulian](shahijulian@gmail.com)
 
 ## 
 
