@@ -35,16 +35,16 @@ The image dataset used for this project can be accessed via the following links:
     - **Validation Set:** 25% of the dataset.
     - **Test Set:** 25% of the dataset.
 
-
 <p align="center">
-  <img src="https://github.com/kishorravi/Colon-Classification-SqueezeNET-Classification/blob/main/images/colonca991.jpeg" alt="Colon Adenocarcinoma Image" width="400">
-  <img src="https://github.com/kishorravi/Colon-Classification-SqueezeNET-Classification/blob/main/images/colonn947.jpeg" alt="Colon Normal Image" width="400">
+  <img src="https://github.com/kishorravi/Colon-Classification-SqueezeNET-Classification/blob/main/images/colonca991.jpeg" alt="Colon Adenocarcinoma Image" width="200">
+  <img src="https://github.com/kishorravi/Colon-Classification-SqueezeNET-Classification/blob/main/images/colonn947.jpeg" alt="Colon Normal Image" width="200">
 </p>
 
 <p align="center">
   <b>Figure 1:</b> Samples of Histopathological Images from LC25000 Dataset. 
   (a) Colon Adenocarcinoma Image (b) Colon Normal Image.
 </p>
+
 This dataset was initially uploaded to Google Drive for streamlined access during experimentation.
 
 ## Methodology: DRCS-Net Architecture Overview
@@ -55,8 +55,6 @@ The **DRCS-Net** (Dilated Residual Colon Cancer SqueezeNet) architecture represe
 - **SqueezeNet Framework**: The base structure leverages SqueezeNet's lightweight design for efficient feature extraction.
 - **Dilated Convolutions**: Adds contextual awareness by expanding the receptive field without increasing the number of parameters, enabling better detection of spatial patterns in histopathological images.
 - **Residual Connections**: Facilitates effective gradient propagation, reducing the risk of vanishing gradients and ensuring smoother model training.
-
-These components work in unison to form a robust architecture capable of early and accurate colon cancer detection.
 
 ### Workflow:
 1. **Dataset Preparation**:
@@ -87,4 +85,24 @@ These components work in unison to form a robust architecture capable of early a
   <b>Fig. 2:</b> Workflow of the Overall Architecture for Colon Cancer Classification Using Histopathological Images.
 </p>
 
+## Results and Discussion
+
+The performance of the DRCS-Net variants was evaluated on the test dataset. Metrics such as accuracy, precision, recall, and F1-score were used to compare the architectures. The results demonstrate the superior performance of **DRCS-Net.V3**, which incorporates three-scale feature fusion and dilated convolutions for enhanced contextual understanding.
+
+### Sample Results:
+
+| Model            | Accuracy (%) | Precision (%) | Recall (%) | F1-Score (%) |
+|-------------------|-------------|---------------|------------|--------------|
+| DRCS-Net.V1      | 93.45       | 92.50         | 94.00      | 93.24        |
+| DRCS-Net.V2      | 95.80       | 94.85         | 96.50      | 95.67        |
+| DRCS-Net.V3      | **98.20**   | **97.90**     | **98.50**  | **98.20**    |
+
+### Sample Misclassified Data:
+
+| Image ID      | Actual Label     | Predicted Label |
+|---------------|------------------|-----------------|
+| image_0456    | Adenocarcinoma   | Benign          |
+| image_0321    | Benign           | Adenocarcinoma  |
+
+The results highlight the robustness of DRCS-Net.V3 in accurately classifying histopathological images. Some misclassifications were observed due to overlapping visual features between benign and adenocarcinoma samples, emphasizing the need for further refinement in preprocessing and feature extraction.
 
