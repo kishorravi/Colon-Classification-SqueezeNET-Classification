@@ -2,7 +2,7 @@
 
 ## Authors
 
-- [@Mr_Kishor_Ravikumar (Honeywell Aerospace)](ece.kishor@gmail.com)
+- [@Mr_Kishor_Ravikumar (NICHE)](ece.kishor@gmail.com)
 - [@Dr_Bushara_AR (KMEA Colleage)](bushara.ar@gmail.com)
 
 ## Contributing Authors
