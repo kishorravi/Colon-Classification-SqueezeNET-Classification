@@ -2,13 +2,13 @@
 
 ## Authors
 
-- [@Mr_Kishor_Ravikumar](ece.kishor@gmail.com)
-- [@Dr_Bushara_AR](bushara.ar@gmail.com)
+- [@Mr_Kishor_Ravikumar (Honeywell Aerospace)](ece.kishor@gmail.com)
+- [@Dr_Bushara_AR (KMEA Colleage)](bushara.ar@gmail.com)
 
 ## Contributing Authors
 
-- [@Dr_RS_Vinodkumar](svinodkumar@niuniv.com)
-- [@Dr_D_Shahi](shahijulian@gmail.com)
+- [@Dr_RS_Vinodkumar (NICHE)](svinodkumar@niuniv.com)
+- [@Dr_D_Shahi (NICHE)](shahijulian@gmail.com)
 
 ## 
 
