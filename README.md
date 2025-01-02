@@ -2,13 +2,13 @@
 
 ## Authors
 
-- [@kishor_ravikumar](ece.kishor@gmail.com)
+- [@kishor_avikumar](ece.kishor@gmail.com)
 - [@dr_bushara_ar](bushara.ar@gmail.com)
 
 ## Contributing Authors
 
 - [@dr_rs_vinodkumar](svinodkumar@niuniv.com)
-- [@dr_shahijulian](shahijulian@gmail.com)
+- [@shahijulian](shahijulian@gmail.com)
 
 ## 
 
@@ -22,6 +22,15 @@ This repository contains the implementation of colon cancer classification using
 The image dataset used for this project can be accessed via the following links:
 - [Primary Dataset Source](https://github.com/tampapath/lung_colon_image_set)  
 - [Alternate Dataset Link](https://www.kaggle.com/datasets/andrewmvd/lung-and-colon-cancer-histopathological-images)
+
+### Dataset Details:
+- Contains **10,000 colon histopathological images**.
+- Equally balanced between **benign** and **adenocarcinoma** tissue classes.
+- Each image has dimensions of **768 × 768 pixels**.
+- The dataset was preprocessed as follows:
+  - Resized all images to **224 × 224 pixels**.
+  - Normalized pixel values to the **[0,1] range**.
+  - Split into training, validation, and test sets in a **50-25-25 ratio**.
 
 This dataset was initially uploaded to Google Drive for streamlined access during experimentation.
 
