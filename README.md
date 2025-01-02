@@ -115,7 +115,7 @@ The confusion matrix for DRCS-Net.V3 reveals minimal misclassifications:
 The graphical representation of accuracy, precision, recall, and specificity for the proposed architectures is illustrated below:
 
 <p align="center">
-  <img src="https://github.com/kishorravi/Colon-Classification-SqueezeNET-Classification/blob/main/images/performance_graph.png" alt="Performance Graph" width="600">
+  <img src=https://github.com/kishorravi/Colon-Classification-SqueezeNET-Classification/blob/main/images/table.jpeg" alt="Performance Graph" width="400">
 </p>
 <p align="center">
   <b>Fig. 3:</b> Performance Comparison of DRCS-Net Variants and Baseline Models.
