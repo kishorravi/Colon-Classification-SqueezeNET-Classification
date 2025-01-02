@@ -2,7 +2,7 @@
 
 ## Authors
 
-- [@kishor_avikumar](ece.kishor@gmail.com)
+- [@kishor_ravikumar](ece.kishor@gmail.com)
 - [@dr_bushara_ar](bushara.ar@gmail.com)
 
 ## Contributing Authors
