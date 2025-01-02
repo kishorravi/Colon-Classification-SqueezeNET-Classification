@@ -17,7 +17,7 @@ This repository contains the implementation of colon cancer classification using
 
 The image dataset used for this project is sourced from Kaggle: Lung and Colon Cancer Histopathological Images. This dataset was initially uploaded to Google Drive for streamlined access during experimentation.
 
-## Figure 1: Samples of Histopathological Images from LC25000 Dataset
+## Figure 1: Samples of Histopathological Images from LC25000 Lung and colon histopathological image dataset
 
 <p align="center">
   <img src="https://github.com/kishorravi/Colon-Classification-SqueezeNET-Classification/blob/main/images/colonca991.jpeg" alt="Colon Adenocarcinoma Image" width="200">
