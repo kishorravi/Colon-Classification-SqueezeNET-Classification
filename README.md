@@ -19,7 +19,11 @@ This repository contains the implementation of colon cancer classification using
 
 ## Dataset
 
-The image dataset used for this project is sourced from Kaggle: Lung and Colon Cancer Histopathological Images. This dataset was initially uploaded to Google Drive for streamlined access during experimentation.
+The image dataset used for this project can be accessed via the following links:
+- [Primary Dataset Source](https://github.com/tampapath/lung_colon_image_set)  
+- [Alternate Dataset Link](https://www.kaggle.com/datasets/andrewmvd/lung-and-colon-cancer-histopathological-images)
+
+This dataset was initially uploaded to Google Drive for streamlined access during experimentation.
 
 ## Figure 1: Samples of Histopathological Images from LC25000 Dataset
 
