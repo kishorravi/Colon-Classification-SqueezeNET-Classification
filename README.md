@@ -35,6 +35,15 @@ The image dataset used for this project can be accessed via the following links:
     - **Validation Set:** 25% of the dataset.
     - **Test Set:** 25% of the dataset.
 
+<p align="center">
+  <img src="https://github.com/kishorravi/Colon-Classification-SqueezeNET-Classification/blob/main/images/colonca991.jpeg" alt="Colon Adenocarcinoma Image" width="200">
+  <img src="https://github.com/kishorravi/Colon-Classification-SqueezeNET-Classification/blob/main/images/colonn947.jpeg" alt="Colon Normal Image" width="200">
+</p>
+
+<p align="center">
+  <b>Figure 1:</b> Samples of Histopathological Images from LC25000 Dataset. 
+  (a) Colon Adenocarcinoma Image (b) Colon Normal Image.
+</p>
 This dataset was initially uploaded to Google Drive for streamlined access during experimentation.
 
 ## Methodology: DRCS-Net Architecture Overview
@@ -78,12 +87,3 @@ These components work in unison to form a robust architecture capable of early a
 
 ## Figure 1: Samples of Histopathological Images from LC25000 Dataset
 
-<p align="center">
-  <img src="https://github.com/kishorravi/Colon-Classification-SqueezeNET-Classification/blob/main/images/colonca991.jpeg" alt="Colon Adenocarcinoma Image" width="200">
-  <img src="https://github.com/kishorravi/Colon-Classification-SqueezeNET-Classification/blob/main/images/colonn947.jpeg" alt="Colon Normal Image" width="200">
-</p>
-
-<p align="center">
-  <b>Figure 1:</b> Samples of Histopathological Images from LC25000 Dataset. 
-  (a) Colon Adenocarcinoma Image (b) Colon Normal Image.
-</p>
