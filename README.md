@@ -114,12 +114,12 @@ The confusion matrix for DRCS-Net.V3 reveals minimal misclassifications:
 ### Graphical Representation
 The graphical representation of accuracy, precision, recall, and specificity for the proposed architectures is illustrated below:
 
-<p align="center">
-  <img src=https://github.com/kishorravi/Colon-Classification-SqueezeNET-Classification/blob/main/images/table.jpeg" alt="Performance Graph" width="400">
+<p align="https://github.com/kishorravi/Colon-Classification-SqueezeNET-Classification/blob/main/images/table.jpeg" width="800">
 </p>
 <p align="center">
-  <b>Fig. 3:</b> Performance Comparison of DRCS-Net Variants and Baseline Models.
+  <b>Fig. 2:</b>  Performance Comparison of Dilated Residual SqueezeNet Architectures,DRCS-Net.V1, DRCS-Net.V2, and DRCS-Net.V3
 </p>
+
 
 ### Comparison with State-of-the-Art
 The proposed DRCS-Net also surpasses existing state-of-the-art methods, achieving the highest performance metrics across all evaluation criteria:
