@@ -81,7 +81,7 @@ These components work in unison to form a robust architecture capable of early a
 ### Overview of the Workflow:
 
 <p align="center">
-  <img src="https://github.com/kishorravi/Colon-Classification-SqueezeNET-Classification/blob/main/images/overall_architecture.png" alt="Overall Architecture for Colon Cancer Classification" width="400">
+  <img src="https://github.com/kishorravi/Colon-Classification-SqueezeNET-Classification/blob/main/images/BLOCK%20DIAGRAM%20(6).jpg" width="800">
 </p>
 <p align="center">
   <b>Fig. 1:</b> Workflow of the Overall Architecture for Colon Cancer Classification Using Histopathological Images.
