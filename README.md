@@ -87,22 +87,50 @@ The **DRCS-Net** (Dilated Residual Colon Cancer SqueezeNet) architecture represe
 
 ## Results and Discussion
 
-The performance of the DRCS-Net variants was evaluated on the test dataset. Metrics such as accuracy, precision, recall, and F1-score were used to compare the architectures. The results demonstrate the superior performance of **DRCS-Net.V3**, which incorporates three-scale feature fusion and dilated convolutions for enhanced contextual understanding.
+The experimental evaluation highlights the superior performance of the proposed DRCS-Net architecture for colon cancer classification. The results for the three variants of DRCS-Net (V1, V2, V3), along with comparisons to SqueezeNet and Residual SqueezeNet, are presented below.
 
-### Sample Results:
+### Model Performance Metrics
 
-| Model            | Accuracy (%) | Precision (%) | Recall (%) | F1-Score (%) |
-|-------------------|-------------|---------------|------------|--------------|
-| DRCS-Net.V1      | 93.45       | 92.50         | 94.00      | 93.24        |
-| DRCS-Net.V2      | 95.80       | 94.85         | 96.50      | 95.67        |
-| DRCS-Net.V3      | **98.20**   | **97.90**     | **98.50**  | **98.20**    |
+| Model                       | Accuracy (%) | Precision (%) | Recall (%) | F1-Score (%) | Specificity (%) | MCC   | KP   |
+|-----------------------------|--------------|---------------|------------|--------------|-----------------|-------|-------|
+| SqueezeNet                  | 98.00        | 99.25         | 96.70      | 97.95        | 99.28           | 0.960 | 0.959 |
+| Residual SqueezeNet         | 98.84        | 99.67         | 97.99      | 98.82        | 99.68           | 0.976 | 0.976 |
+| DRCS-Net.V1                 | 98.60        | 98.01         | 99.20      | 98.60        | 97.99           | 0.971 | 0.972 |
+| DRCS-Net.V2                 | 99.20        | 99.04         | 99.36      | 99.19        | 99.04           | 0.982 | 0.983 |
+| **DRCS-Net.V3 (Proposed)**  | **99.80**    | **99.90**     | **99.60**  | **99.74**    | **99.90**       | **0.996** | **0.995** |
 
-### Sample Misclassified Data:
+### Key Insights
+1. **Accuracy**:
+   - The proposed DRCS-Net.V3 achieves the highest accuracy of 99.80%, outperforming both SqueezeNet and Residual SqueezeNet.
+2. **Precision and Recall**:
+   - DRCS-Net.V3 exhibits exceptional precision (99.90%) and recall (99.60%), indicating its ability to accurately identify and differentiate between adenocarcinoma and benign tissues.
+3. **F1-Score**:
+   - A balanced F1-Score of 99.74% further confirms the robustness of DRCS-Net.V3 in colon cancer classification.
 
-| Image ID      | Actual Label     | Predicted Label |
-|---------------|------------------|-----------------|
-| image_0456    | Adenocarcinoma   | Benign          |
-| image_0321    | Benign           | Adenocarcinoma  |
+### Confusion Matrix Summary
+The confusion matrix for DRCS-Net.V3 reveals minimal misclassifications:
+- Only 1 adenocarcinoma sample was misclassified as benign.
+- Only 4 benign samples were misclassified as adenocarcinoma.
 
-The results highlight the robustness of DRCS-Net.V3 in accurately classifying histopathological images. Some misclassifications were observed due to overlapping visual features between benign and adenocarcinoma samples, emphasizing the need for further refinement in preprocessing and feature extraction.
+### Graphical Representation
+The graphical representation of accuracy, precision, recall, and specificity for the proposed architectures is illustrated below:
 
+<p align="center">
+  <img src="https://github.com/kishorravi/Colon-Classification-SqueezeNET-Classification/blob/main/images/performance_graph.png" alt="Performance Graph" width="600">
+</p>
+<p align="center">
+  <b>Fig. 3:</b> Performance Comparison of DRCS-Net Variants and Baseline Models.
+</p>
+
+### Comparison with State-of-the-Art
+The proposed DRCS-Net also surpasses existing state-of-the-art methods, achieving the highest performance metrics across all evaluation criteria:
+
+| Author          | Model            | Accuracy (%) | Precision (%) | Recall (%) | F1-Score (%) |
+|------------------|------------------|--------------|---------------|------------|--------------|
+| Javed [40]       | CNN              | 89.80        | 93.60         | 89.80      | 91.40        |
+| Kumar [41]       | DenseNet-121     | 98.60        | 98.63         | 98.60      | 98.50        |
+| Younas [42]      | GoogLeNet        | 86.70        | 86.60         | 86.60      | 87.10        |
+| Chlorogiannis [43]| CNN             | 99.69        | 99.31         | -          | 99.00        |
+| **Proposed**     | **DRCS-Net.V3**  | **99.80**    | **99.90**     | **99.60**  | **99.74**    |
+
+These results confirm the potential of DRCS-Net as a transformative tool for early and accurate colon cancer diagnosis using histopathological images.
