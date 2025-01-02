@@ -90,14 +90,13 @@ The **DRCS-Net** (Dilated Residual Colon Cancer SqueezeNet) architecture represe
 The experimental evaluation highlights the superior performance of the proposed DRCS-Net architecture for colon cancer classification. The results for the three variants of DRCS-Net (V1, V2, V3), along with comparisons to SqueezeNet and Residual SqueezeNet, are presented below.
 
 ### Model Performance Metrics
+<p align="center">
+  <img src="https://github.com/kishorravi/Colon-Classification-SqueezeNET-Classification/blob/main/images/BLOCK%20DIAGRAM%20(6).jpg" width="800">
+</p>
+<p align="center">
+  <b>Fig. 2:</b>  Performance Comparison of Dilated Residual SqueezeNet Architectures,DRCS-Net.V1, DRCS-Net.V2, and DRCS-Net.V3
+</p>
 
-| Model                       | Accuracy (%) | Precision (%) | Recall (%) | F1-Score (%) | Specificity (%) | MCC   | KP   |
-|-----------------------------|--------------|---------------|------------|--------------|-----------------|-------|-------|
-| SqueezeNet                  | 98.00        | 99.25         | 96.70      | 97.95        | 99.28           | 0.960 | 0.959 |
-| Residual SqueezeNet         | 98.84        | 99.67         | 97.99      | 98.82        | 99.68           | 0.976 | 0.976 |
-| DRCS-Net.V1                 | 98.60        | 98.01         | 99.20      | 98.60        | 97.99           | 0.971 | 0.972 |
-| DRCS-Net.V2                 | 99.20        | 99.04         | 99.36      | 99.19        | 99.04           | 0.982 | 0.983 |
-| **DRCS-Net.V3 (Proposed)**  | **99.80**    | **99.90**     | **99.60**  | **99.74**    | **99.90**       | **0.996** | **0.995** |
 
 ### Key Insights
 1. **Accuracy**:
