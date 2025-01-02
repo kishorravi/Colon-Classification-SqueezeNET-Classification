@@ -35,15 +35,6 @@ The image dataset used for this project can be accessed via the following links:
     - **Validation Set:** 25% of the dataset.
     - **Test Set:** 25% of the dataset.
 
-<p align="center">
-  <img src="https://github.com/kishorravi/Colon-Classification-SqueezeNET-Classification/blob/main/images/colonca991.jpeg" alt="Colon Adenocarcinoma Image" width="200">
-  <img src="https://github.com/kishorravi/Colon-Classification-SqueezeNET-Classification/blob/main/images/colonn947.jpeg" alt="Colon Normal Image" width="200">
-</p>
-
-<p align="center">
-  <b>Figure 1:</b> Samples of Histopathological Images from LC25000 Dataset. 
-  (a) Colon Adenocarcinoma Image (b) Colon Normal Image.
-</p>
 This dataset was initially uploaded to Google Drive for streamlined access during experimentation.
 
 ## Methodology: DRCS-Net Architecture Overview
@@ -55,7 +46,17 @@ The **DRCS-Net** (Dilated Residual Colon Cancer SqueezeNet) architecture represe
 - **Dilated Convolutions**: Adds contextual awareness by expanding the receptive field without increasing the number of parameters, enabling better detection of spatial patterns in histopathological images.
 - **Residual Connections**: Facilitates effective gradient propagation, reducing the risk of vanishing gradients and ensuring smoother model training.
 
-These components work in unison to form a robust architecture capable of early and accurate colon cancer detection.
+## Model Architectures
+
+### Dilated Residual Colon Cancer SqueezeNet (DRCS-Net)
+The DRCS-Net architecture builds on SqueezeNet by incorporating:
+- **Dilated Convolutions**: To enhance the receptive field and capture more contextual information.
+- **Residual Connections**: To mitigate gradient vanishing and improve learning of complex features.
+
+### Variants Explored:
+1. **DRCS-Net.V1**: Foundational residual fire module with single-scale feature extraction.
+2. **DRCS-Net.V2**: Two-scale feature fusion for capturing multi-scale patterns.
+3. **DRCS-Net.V3**: Three-scale feature fusion with enhanced contextual understanding using multiple dilation rates.
 
 ### Workflow:
 1. **Dataset Preparation**:
@@ -79,8 +80,20 @@ These components work in unison to form a robust architecture capable of early a
 
 ### Overview of the Workflow:
 <p align="center">
+  <b>Fig. 1:</b> Workflow of the Overall Architecture for Colon Cancer Classification Using Histopathological Images.
 </p>
 <p align="center">
-  <img src="https://github.com/kishorravi/Colon-Classification-SqueezeNET-Classification/blob/main/images/BLOCK%20DIAGRAM%20(6).jpg" alt="Overall Architecture for Colon Cancer Classification" width="400">
-</p> <b>Figure 2:</b> Workflow of the Overall Architecture for Colon Cancer Classification Using Histopathological Images
+  <img src="https://github.com/kishorravi/Colon-Classification-SqueezeNET-Classification/blob/main/images/overall_architecture.png" alt="Overall Architecture for Colon Cancer Classification" width="400">
+</p>
 
+## Figure 1: Samples of Histopathological Images from LC25000 Dataset
+
+<p align="center">
+  <img src="https://github.com/kishorravi/Colon-Classification-SqueezeNET-Classification/blob/main/images/colonca991.jpeg" alt="Colon Adenocarcinoma Image" width="200">
+  <img src="https://github.com/kishorravi/Colon-Classification-SqueezeNET-Classification/blob/main/images/colonn947.jpeg" alt="Colon Normal Image" width="200">
+</p>
+
+<p align="center">
+  <b>Figure 1:</b> Samples of Histopathological Images from LC25000 Dataset. 
+  (a) Colon Adenocarcinoma Image (b) Colon Normal Image.
+</p>
