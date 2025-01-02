@@ -46,17 +46,7 @@ The **DRCS-Net** (Dilated Residual Colon Cancer SqueezeNet) architecture represe
 - **Dilated Convolutions**: Adds contextual awareness by expanding the receptive field without increasing the number of parameters, enabling better detection of spatial patterns in histopathological images.
 - **Residual Connections**: Facilitates effective gradient propagation, reducing the risk of vanishing gradients and ensuring smoother model training.
 
-## Model Architectures
-
-### Dilated Residual Colon Cancer SqueezeNet (DRCS-Net)
-The DRCS-Net architecture builds on SqueezeNet by incorporating:
-- **Dilated Convolutions**: To enhance the receptive field and capture more contextual information.
-- **Residual Connections**: To mitigate gradient vanishing and improve learning of complex features.
-
-### Variants Explored:
-1. **DRCS-Net.V1**: Foundational residual fire module with single-scale feature extraction.
-2. **DRCS-Net.V2**: Two-scale feature fusion for capturing multi-scale patterns.
-3. **DRCS-Net.V3**: Three-scale feature fusion with enhanced contextual understanding using multiple dilation rates.
+These components work in unison to form a robust architecture capable of early and accurate colon cancer detection.
 
 ### Workflow:
 1. **Dataset Preparation**:
