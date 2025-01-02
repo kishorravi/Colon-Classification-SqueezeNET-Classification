@@ -34,7 +34,7 @@ The image dataset used for this project can be accessed via the following links:
     - **Training Set:** 50% of the dataset.
     - **Validation Set:** 25% of the dataset.
     - **Test Set:** 25% of the dataset.
-## Figure 1: Samples of Histopathological Images from LC25000 Dataset
+
 
 <p align="center">
   <img src="https://github.com/kishorravi/Colon-Classification-SqueezeNET-Classification/blob/main/images/colonca991.jpeg" alt="Colon Adenocarcinoma Image" width="200">
