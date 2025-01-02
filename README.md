@@ -8,7 +8,7 @@
 ## Contributing Authors
 
 - [@dr_rs_vinodkumar](svinodkumar@niuniv.com)
-- [@dr_shahijulian](shahijulian@gmail.com)
+- [@dr_d_shahi](shahijulian@gmail.com)
 
 ## 
 
