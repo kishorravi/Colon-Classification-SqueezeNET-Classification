@@ -83,7 +83,5 @@ These components work in unison to form a robust architecture capable of early a
 </p>
 <p align="center">
   <img src="https://github.com/kishorravi/Colon-Classification-SqueezeNET-Classification/blob/main/images/overall_architecture.png" alt="Overall Architecture for Colon Cancer Classification" width="400">
-</p>
-
-## Figure 1: Samples of Histopathological Images from LC25000 Dataset
+</p> <b>Figure 2:</b> ashash
 
