@@ -79,11 +79,12 @@ These components work in unison to form a robust architecture capable of early a
    - The trained and fine-tuned model accurately distinguishes between adenocarcinoma and benign samples based on learned features from histopathological images.
 
 ### Overview of the Workflow:
-<p align="center">
-  <b>Fig. 1:</b> Workflow of the Overall Architecture for Colon Cancer Classification Using Histopathological Images.
-</p>
+
 <p align="center">
   <img src="https://github.com/kishorravi/Colon-Classification-SqueezeNET-Classification/blob/main/images/overall_architecture.png" alt="Overall Architecture for Colon Cancer Classification" width="400">
+</p>
+<p align="center">
+  <b>Fig. 1:</b> Workflow of the Overall Architecture for Colon Cancer Classification Using Histopathological Images.
 </p>
 
 
