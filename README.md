@@ -30,7 +30,10 @@ The image dataset used for this project can be accessed via the following links:
 - The dataset was preprocessed as follows:
   - Resized all images to **224 × 224 pixels**.
   - Normalized pixel values to the **[0,1] range**.
-  - Split into training, validation, and test sets in a **50-25-25 ratio**.
+  - Split into training, validation, and test sets with the following ratios:
+    - **Training Set:** 50% of the dataset.
+    - **Validation Set:** 25% of the dataset.
+    - **Test Set:** 25% of the dataset.
 
 This dataset was initially uploaded to Google Drive for streamlined access during experimentation.
 
