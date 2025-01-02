@@ -2,13 +2,13 @@
 
 ## Authors
 
-- [@kishor_ravikumar](ece.kishor@gmail.com)
-- [@dr_bushara_ar](bushara.ar@gmail.com)
+- [@Mr_Kishor_Ravikumar](ece.kishor@gmail.com)
+- [@Dr_Bushara_AR](bushara.ar@gmail.com)
 
 ## Contributing Authors
 
-- [@dr_rs_vinodkumar](svinodkumar@niuniv.com)
-- [@dr_d_shahi](shahijulian@gmail.com)
+- [@Dr_RS_Vinodkumar](svinodkumar@niuniv.com)
+- [@Dr_D_Shahi](shahijulian@gmail.com)
 
 ## 
 
