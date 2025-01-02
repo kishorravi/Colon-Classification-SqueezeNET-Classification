@@ -3,7 +3,7 @@
 ## Authors
 
 - [@Mr_Kishor_Ravikumar (NICHE)](ece.kishor@gmail.com)
-- [@Dr_Bushara_AR (KMEA Colleage)](bushara.ar@gmail.com)
+- [@Dr_Bushara_AR (KMEA Engineering Colleage)](bushara.ar@gmail.com)
 
 ## Contributing Authors
 
