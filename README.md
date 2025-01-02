@@ -23,6 +23,8 @@ The image dataset used for this project is sourced from Kaggle: Lung and Colon C
 
 
 
-![Colon Cancer Classification Image](https://github.com/kishorravi/images/Colon-Classification-SqueezeNET-Classification/blob/main/images/colonca991.jpeg)
+![Colon Cancer Classification Image](https://github.com/kishorravi/Colon-Classification-SqueezeNET-Classification/blob/main/images/colonca991.jpeg)
+
+
 
 
